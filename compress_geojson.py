@@ -10,7 +10,7 @@ def compress(input_file, output_file):
         if isinstance(coordinates, list):
             return [round_coordinates(coord) for coord in coordinates]
         elif isinstance(coordinates, float):
-            return round(coordinates, 3)
+            return round(coordinates, 1)
         else:
             return coordinates
     # Рекурсивно обойти геоданные и уменьшить точность координат
@@ -32,7 +32,7 @@ def compress(input_file, output_file):
 
 
 # Указать путь к исходному и целевому файлам GeoJSON
-input_file = 'admin_level_0.geojson'
-output_file = 'map_russia.geojson'
+input_file = 'map_russia.geojson'
+output_file = 'map_russia_compressed.geojson'
 
 compress(input_file, output_file)
