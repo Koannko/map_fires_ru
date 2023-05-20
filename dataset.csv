@@ -1,0 +1,86 @@
+id,regions,num_2018,num_2019,num_2020,num_2021,area_2018,area_2019,area_2020,area_2021,cost_2018,cost_2019,cost_2020,cost_2021,name
+1,Adygey,0,11,2,0,0,0,0,0,9,5,14,12,Republic of Adygea
+2,Altay,210,387,408,406,0,2,6,2,95,106,120,135,Altai Krai
+3,Amur,433,289,585,231,4149,649,196,61,1844,1053,1235,708,Amur Oblast
+4,Arkhangelsk,127,54,55,183,2,1,0,2,314,255,293,507,Arkhangelsk Oblast
+5,Astrakhan,1,2,0,2,0,0,0,0,41,53,60,46,Astrakhan Oblast
+6,Bashkortostan,150,160,172,480,3,6,4,17,41,47,63,78,Republic of Bashkortostan
+7,Belgorod,0,1,0,1,0,0,0,0,34,33,48,38,Belgorod Oblast
+8,Bryansk,11,93,175,4,0,3,2,0,16,16,20,14,Bryansk Oblast
+9,Buryat,364,553,528,137,70,469,135,3,893,1290,1404,869,Republic of Buryatia
+10,Chechnya,0,0,0,0,0,0,0,0,37,39,24,25,Chechen Republic
+11,Chelyabinsk,705,534,678,1152,72,34,12,43,58,131,267,229,Chelyabinsk Oblast
+12,Chukot,10,64,111,86,5,124,355,134,176,354,561,367,Chukotka Autonomous Okrug
+13,Chuvash,0,3,9,17,0,0,0,0,68,87,96,35,Chuvash Republic
+14,City of St. Petersburg,571,282,286,448,6,0,0,1,29,16,16,29,Leningrad Oblast
+15,Crimea,102,69,103,21,0,1,0,0,224,116,125,99,Republic of Crimea
+16,Dagestan,1,5,15,2,0,0,0,0,55,54,64,64,Republic of Dagestan
+17,Gorno-Altay,54,35,38,35,1,0,3,0,380,283,402,251,Republic of Altai
+18,Ingush,2,0,1,3,0,0,0,0,13,13,13,15,Republic of Ingushetia
+19,Irkutsk,779,1053,923,590,688,3363,303,547,783,1198,1189,1905,Irkutsk Oblast
+20,Ivanovo,18,20,11,31,0,0,0,0,53,47,47,28,Ivanovo Oblast
+21,Kabardin-Balkar,0,9,5,0,0,0,0,0,8,20,26,24,Kabardino-Balkarian Republic
+22,Kaliningrad,21,41,23,4,0,0,0,0,20,25,25,24,Kaliningrad Oblast
+23,Kalmyk,5,2,0,0,0,0,0,0,11,13,12,27,Republic of Kalmykia
+24,Kaluga,8,46,80,7,0,0,0,0,14,14,19,8,Kaluga Oblast
+25,Kamchatka,20,59,149,50,6,210,176,71,129,307,801,364,Kamchatka Krai
+26,Karachay-Cherkess,1,11,19,1,0,0,0,0,26,18,24,13,Karachay-Cherkess Republic
+27,Karelia,312,106,141,302,4,2,1,16,406,373,405,463,Republic of Karelia
+28,Kemerovo,4,56,67,62,0,2,2,2,71,108,130,97,Kemerovo Oblast
+29,Khabarovsk,461,479,430,442,760,542,187,134,783,802,988,710,Khabarovsk Krai
+30,Khakass,41,30,46,11,1,1,43,0,104,86,146,116,Republic of Khakassia
+31,Khanty-Mansiy,226,214,485,330,14,8,146,23,494,451,721,418,Khanty-Mansi Autonomous Okrug
+32,Kirov,31,39,35,150,0,0,0,1,78,76,110,121,Kirov Oblast
+33,Komi,99,20,76,176,1,0,1,3,356,365,409,497,Republic of Komi
+34,Kostroma,14,11,5,71,0,0,0,2,103,107,114,132,Kostroma Oblast
+35,Krasnodar,56,126,163,43,1,3,2,0,2,0,0,23,Krasnodar Krai
+36,Krasnoyarsk,1646,2059,1386,696,6683,4921,569,69,1505,1945,2118,1651,Krasnoyarsk Krai
+37,Kurgan,465,262,389,1010,142,71,3,54,145,218,158,152,Kurgan Oblast
+38,Kursk,0,1,3,0,16,0,0,0,33,34,49,35,Kursk Oblast
+39,Leningrad,571,282,286,448,2,0,0,1,29,16,16,29,Leningrad Oblast
+40,Lipetsk,0,0,1,2,0,0,0,0,48,57,59,47,Lipetsk Oblast
+41,Maga Buryatdan,99,105,266,92,107,81,288,154,440,511,627,482,Magadan Oblast
+42,Mariy-El,46,40,39,103,0,0,0,6,34,40,40,50,Republic of Mari El
+43,Mordovia,26,18,2,27,0,8,0,13,7,12,11,11,Republic of Mordovia
+44,Moscow City,296,315,231,209,1,3,1,0,993,920,1005,826,Moscow Oblast
+45,Moskva,296,315,231,209,1,3,1,0,993,920,1005,826,Moscow Oblast
+46,Murmansk,178,28,58,72,22,0,0,3,258,121,172,129,Murmansk Oblast
+47,Nenets,0,0,1,0,0,0,0,0,0,0,0,0,Nenets Autonomous Okrug
+48,Nizhegorod,90,65,70,123,0,0,0,1,121,118,115,61,Nizhny Novgorod Oblast
+49,North Ossetia,0,0,0,0,0,0,0,0,16,19,21,20,Republic of North Ossetia-Alania
+50,Novgorod,32,32,25,45,0,0,0,0,34,35,42,29,Novgorod Oblast
+51,Novosibirsk,72,402,333,285,1,6,4,5,81,89,114,103,Novosibirsk Oblast
+52,Omsk,113,261,542,555,9,9,26,43,75,91,147,124,Omsk Oblast
+53,Orel,0,0,1,0,0,0,0,0,14,11,19,8,Oryol Oblast
+54,Orenburg,215,145,195,311,4,3,4,8,13,10,18,29,Orenburg Oblast
+55,Penza,78,75,90,62,0,1,0,0,30,41,47,33,Penza Oblast
+56,Perm,82,22,106,174,0,0,0,2,111,110,153,146,Perm Krai
+57,Primorye,467,574,258,393,339,181,22,72,422,432,427,286,Primorsky Krai
+58,Pskov,156,195,82,88,1,1,0,0,65,72,60,67,Pskov Oblast
+59,Rostov,13,0,27,5,0,0,2,0,123,146,165,139,Rostov Oblast
+60,Ryazan,27,21,46,51,268,7,1,0,23,52,30,32,Ryazan Oblast
+61,Sakha,642,1865,2061,1696,5997,7340,5722,7137,1098,1549,2080,4675,Republic of Sakha (Yakutia)
+62,Sakhalin,30,26,18,40,2,0,0,0,319,328,362,332,Sakhalin Oblast
+63,Samara,29,21,68,174,0,0,0,3,48,55,56,64,Samara Oblast
+64,Saratov,94,48,144,63,4,1,6,2,52,64,71,54,Saratov Oblast
+65,Sevastopol,23,0,31,14,0,0,0,0,224,116,125,99,Sevastopol
+66,Smolensk,13,31,25,6,2,0,0,0,0,0,0,0,Smolensk Oblast
+67,Stavropol,0,2,0,0,0,0,0,0,42,55,62,75,Stavropol Krai
+68,Sverdlovsk,430,236,513,1386,13,6,11,98,123,110,208,203,Sverdlovsk Oblast
+69,Tambov,10,16,20,12,27,0,0,0,46,58,75,52,Tambov Oblast
+70,Tatarstan,0,0,3,26,0,0,0,0,18,21,24,21,Republic of Tatarstan
+71,Tomsk,86,224,188,132,2,5,10,8,171,127,306,177,Tomsk Oblast
+72,Tula,0,0,0,0,1,0,0,0,1,1,2,2,Tula Oblast
+73,Tuva,98,42,65,35,22,31,33,1,290,304,538,342,Republic of Tuva
+74,Tver,20,20,4,24,11,0,0,0,133,63,47,35,Tver Oblast
+75,Tyumen,132,119,226,686,3,6,2,276,274,252,353,491,Tyumen Oblast
+76,Udmurt,29,19,23,128,0,0,0,0,49,27,31,30,Udmurt Republic
+77,Ulyanovsk,169,88,83,116,5,2,1,1,52,29,44,35,Ulyanovsk Oblast
+78,Vladimir,130,105,83,100,2,0,0,0,339,278,274,183,Vladimir Oblast
+79,Volgograd,17,13,56,33,0,0,1,0,148,208,253,181,Volgograd Oblast
+80,Vologda,46,41,13,112,0,0,0,2,177,71,131,287,Vologda Oblast
+81,Voronezh,65,26,110,44,2,0,2,1,17,28,38,27,Voronezh Oblast
+82,Yamal-Nenets,121,98,118,97,5,3,3,1,129,73,147,86,Yamalo-Nenets Autonomous Okrug
+83,Yaroslavl,3,10,0,8,2,0,0,0,34,35,35,33,Yaroslavl Oblast
+84,Yevrey,169,109,107,139,242,157,24,80,181,178,217,136,Jewish Autonomous Oblast
+85,Zabaikalskiy Krai,831,959,878,260,1074,1336,660,33,1579,1357,1915,837,Zabaykalsky Krai
