@@ -10,8 +10,8 @@ def load_data(url, filename, file_type):
     with open(filename, 'r') as f:
         return file_type(f)
 
-state_geo = "map_russia_compressed.geojson"
-file_path = "dataset.csv"
+state_geo = "geojson\\map_ru_compr_with_full_names.geojson"
+file_path = "static_data\\dataset.csv"
 state_data = pd.read_csv(file_path)
 
 bins = [[0, 300, 600, 900, 1200, 1500, 2100],
@@ -33,7 +33,6 @@ for i, param in enumerate(parameters):
     m = MapFires(state_geo, state_data, colors[i], names[i], legend_names[i], bins[i], param)
 
     for year in range(2018, 2022):
-
         show = year == 2018
 
         #Добавить слой
@@ -41,7 +40,9 @@ for i, param in enumerate(parameters):
 
         #Скрыть легенду, если это необходимо
         m.hide_legend(year)
-
+    
+    # Добавить слой с именами субъектов
+    m.add_tooltip()
 
     #Добавление переключения между слоями
     m.add_layer_control()

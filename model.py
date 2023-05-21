@@ -2,7 +2,7 @@ import folium
 
 class MapFires():
     def __init__(self, state_geo, state_data, color, name, legend_name, bins, param):
-        self.m = folium.Map(location=[70, 110], zoom_start=2)
+        self.m = folium.Map(location=[70, 110], zoom_start=3)
         self.state_geo = state_geo
         self.state_data = state_data
         self.color = color
@@ -25,7 +25,7 @@ class MapFires():
             bins=self.bins,
             show = show,
         ).add_to(self.m)
-        print(f'Добавлен слой {self.name} за {year} год')
+        print(f'Добавлен слой {self.name} {year} год')
 
     def hide_legend(self, year):
         for key in self.c._children:
@@ -37,6 +37,34 @@ class MapFires():
         folium.LayerControl().add_to(self.m)
         print(f'Добавлен контроллер для слоя {self.legend_name}')
 
+    def add_tooltip(self):
+        self.tooltip = folium.GeoJsonTooltip(fields=['full_name'],
+                            aliases=[''],
+                            labels=True,
+                            localize=True,
+                            sticky=True,
+                            style="""
+                            background-color: #FFFFFF;
+                            border: 1 solid black;
+                            border-radius: 1px;
+                            box-shadow: 1px;
+                            font-size: 14px;
+                            """,)
+
+        g = folium.GeoJson(self.state_geo, 
+            name="Показывать названия субъектов РФ",
+            style_function=lambda x: {
+                "fillColor": "transparent",
+                "color": "transparent",
+                "weight": 1,
+            },
+            tooltip=self.tooltip, 
+            smooth_factor=1,
+            highlight_function=lambda x: {"fillColor": "grey", "color": "grey", "opacity": 0.1},
+        ).add_to(self.m)
+        print(f'Добавлен интерактив для слоя {self.legend_name}')
+
+
     def save(self):
-        self.m.save(f'map_{self.param}_tooltip_fires.html')
+        self.m.save(f'maps\\{self.param}_fires.html')
         print(f'Сохранена карта {self.param}_fires.html')
