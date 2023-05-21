@@ -64,7 +64,13 @@ class MapFires():
         ).add_to(self.m)
         print(f'Добавлен интерактив для слоя {self.legend_name}')
 
-
     def save(self):
         self.m.save(f'maps\\{self.param}_fires.html')
         print(f'Сохранена карта {self.param}_fires.html')
+    
+    def add_styles(self, styles):
+        # Открытие HTML файла для записи
+        with open(f'maps\\{self.param}_fires.html', 'a') as f:
+            # Запись строки со стилями в файл
+            f.write('<style>{}</style>\n'.format(styles))
+        print(f'Добавлены стили для карты {self.param}_fires.html')

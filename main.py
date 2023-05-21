@@ -49,3 +49,7 @@ for i, param in enumerate(parameters):
 
     # Сохранение карты в HTML с минимизацией HTML-кода
     m.save()
+
+    styles = '.caption { font-weight: 500; font-size: 14px; }\
+                .tick {font-size: 14px;}'
+    m.add_styles(styles)
